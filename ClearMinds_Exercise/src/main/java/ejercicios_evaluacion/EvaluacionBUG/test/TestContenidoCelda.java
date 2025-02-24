@@ -1,0 +1,21 @@
+package ejercicios_evaluacion.EvaluacionBUG.test;
+
+import ejercicios_evaluacion.EvaluacionBUG.componentes.Celda;
+import ejercicios_evaluacion.EvaluacionBUG.componentes.Producto;
+
+public class TestContenidoCelda {
+
+	public static void main(String[] args) {
+		Celda celda=new Celda();
+		Producto producto=new Producto("KE34","Papitas",0.85);
+		celda.ingresarProducto(producto, 5);
+		
+		System.out.println("CELDA:"+celda.getCodigo());
+		System.out.println("*************************************");
+		System.out.println("Nombre Producto:"+celda.getProducto().getNombre());
+		System.out.println("Precio Producto:"+celda.getProducto().getPrecio());
+		System.out.println("C�digo Producto:"+celda.getProducto().getCodigo());
+		System.out.println("STOCK:"+celda.getStock());
+	}
+
+}

@@ -1,0 +1,12 @@
+package ejercicios_repaso.repaso.entidades;
+
+public class Validaciones {
+
+	public boolean validarMonto(double monto){
+		if(monto > 0){
+			return true;
+		}else{
+			return false;
+		} 
+	}
+}
