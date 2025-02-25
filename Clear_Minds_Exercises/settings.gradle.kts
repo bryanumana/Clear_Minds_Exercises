@@ -1,2 +1,1 @@
-rootProject.name = "Java_SE_Fundamentals"
-
+rootProject.name = "Clear_Minds_Exercises"

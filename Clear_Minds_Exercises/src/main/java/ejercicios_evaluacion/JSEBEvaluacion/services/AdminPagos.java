@@ -2,6 +2,7 @@ package ejercicios_evaluacion.JSEBEvaluacion.services;
 
 
 //import com.clearminds.entidades.Prestamo;
+import com.clearminds.entidades.Prestamo;
 import ejercicios_evaluacion.JSEBEvaluacion.entities.Cliente;
 import ejercicios_evaluacion.JSEBEvaluacion.entities.Cuenta;
 import ejercicios_evaluacion.JSEBEvaluacion.entities.TipoCuenta;
@@ -70,7 +71,7 @@ public class AdminPagos {
         return cliente.getCuenta().getTipoCuenta();
     }
 
- /*   public String mostrarPrestamo(Cliente cliente) {
+   public String mostrarPrestamo(Cliente cliente) {
         String mensaje = "";
         Prestamo prestamo = new Prestamo();
         double saldo = cliente.getCuenta().getSaldo();
@@ -85,5 +86,5 @@ public class AdminPagos {
         }
 
         return mensaje;
-    } */
+    }
 }

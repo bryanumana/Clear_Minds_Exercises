@@ -36,11 +36,11 @@ public class TestCuentas {
 		System.out.println("-------------------------------------------");
 		System.out.println("Tipo Cuenta: " + tipoCuenta.getNombre());
 
-/*
+
 		//8. Invoco al metodo mostrarPrestamo
 		String tipoPrestamo= adminPagos.mostrarPrestamo(cliente);
 		System.out.println("-------------------------------------------");
 		System.out.println("Tipo Prestamo: " + tipoPrestamo);
-*/
+
 	}
 }
